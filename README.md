@@ -47,22 +47,38 @@ Supporting preparation of T2 corporate tax returns for incorporated self-employe
 
 ## How to Use a Skill
 
-Skills are designed to be loaded into an AI session before performing a task.
+Once installed, the agent discovers and loads the relevant skill automatically based on your request. You do not need to invoke it manually.
 
-Typical workflow:
-
-1. Start a new AI session.
-2. Load the relevant skill file from the `skills/` directory.
-3. Provide the required input data.
-4. The AI follows the structured instructions and produces a consistent output.
-
-Example workflow for T1 preparation support:
+Example:
 
 ```text
-load skill → t1
+request → "prepare T1 for self-employed client"
+agent loads → t1
 input → client income and expense summary
 output → flagged items and preparation notes
 ```
+
+For explicit invocation in Claude Code or Codex CLI, reference the skill by name in your prompt.
+
+These skills follow the open [Agent Skills standard](https://agentskills.io) and work across Claude, OpenAI Codex, and Google Gemini CLI without modification.
+
+---
+
+## Installation
+
+**Claude (claude.ai):**
+1. Download or clone this repository
+2. Zip the skill folder you want to install
+3. Go to Settings > Capabilities > Skills > Upload skill
+
+**Claude Code:**
+Place the skill folder in `~/.claude/skills/`
+
+**OpenAI Codex:**
+Place the skill folder in `~/.agents/skills/`
+
+**Google Gemini CLI:**
+Place the skill folder in `~/.gemini/skills/` or `~/.agents/skills/`
 
 ---
 
@@ -74,7 +90,6 @@ Example files may include:
 
 ```text
 examples/
-
    income-summary.csv
    expense-log.csv
    gst-hst-records.csv
@@ -105,18 +120,39 @@ These files simulate typical inputs for self-employed professional engagements.
 
 ## Repository Structure
 
+Each skill is a self-contained folder with a `SKILL.md` file. Optional `scripts/`, `references/`, and `assets/` subdirectories can be added inside a skill folder as needed.
+
 ```text
-skills/
-   income/
-      income-classification
-   expenses/
-      expense-treatment
-   tax/
-      gsthst
-      t1
-      t2
-   cra/
-      cra-research
+income/
+   income-classification/
+      SKILL.md
+
+expenses/
+   expense-treatment/
+      SKILL.md
+
+cra/
+   cra-research/
+      SKILL.md
+
+tax/
+   gsthst/
+      SKILL.md
+   t1/
+      SKILL.md
+   t2/
+      SKILL.md
+
+examples/
+   income-summary.csv
+   expense-log.csv
+   gst-hst-records.csv
+   cra-correspondence/
+      sample-notice.pdf
+   t1-package/
+      t1-sample-documents/
+   t2-package/
+      t2-sample-documents/
 ```
 
 ---
