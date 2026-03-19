@@ -1,5 +1,5 @@
 ---
-name: identifying-income-sources
+name: 01-identifying-income-sources
 description: "Identifies and documents all income sources for a self-employed Canadian for the current tax year. Use when a self-employed Canadian needs to organize income before tax filing or CPA review. Trigger on: T4A, T4, invoices, self-employment income, income summary, prepare for CPA, organize my income, what income do I need to report, I don't know if I have everything, I need to pull together my income."
 metadata:
   author: Alex Teplov
@@ -9,7 +9,7 @@ metadata:
 
 # Identifying Income Sources
 
-**Workflow position:** First skill in the selfemployed-skills sequence. Run before `checking-gst-hst`, `classifying-expenses`, and `preparing-cpa-review`. Those skills assume this step is complete or in progress.
+**Workflow position:** First skill in the selfemployed-skills sequence. Run before `02-checking-gst-hst`, `03-classifying-expenses`, and `04-preparing-cpa-t1-package`. Those skills assume this step is complete or in progress.
 
 **Core constraint:** This workflow organizes information. It does not verify completeness or accuracy. State this to the user before starting.
 
