@@ -118,6 +118,6 @@ examples/
 
 ## About
 
-Built by Alex Teplov, CPA.
+Built by [Alex Teplov, CPA](https://www.linkedin.com/in/alex-teplov/).
 
 I run two specialized accounting practices in Canada and build these workflows from operational problems encountered in real practice.
