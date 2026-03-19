@@ -1,5 +1,5 @@
 ---
-name: checking-gst-hst
+name: 02-checking-gst-hst
 description: "Guides users through a structured review of their GST/HST obligations as a self-employed Canadian. Collects revenue figures, supply types, registration status, and filing history to produce an organized summary a CPA can act on. Does not advise on registration decisions, exempt supply classification, or Quick Method elections. Trigger on: 'do I need to charge HST', 'should I be registered for GST', 'check my GST situation', 'I think I missed a GST filing', 'help me figure out my HST', 'am I over the small supplier limit'."
 metadata:
   author: Alex Teplov
@@ -9,7 +9,7 @@ metadata:
 
 # Checking GST/HST
 
-**Workflow position:** Runs after `identifying-income-sources`. Output feeds into `preparing-cpa-review` if the user is preparing for a CPA meeting, or stands alone as a compliance check.
+**Workflow position:** Runs after `01-identifying-income-sources`. Output feeds into `04-preparing-cpa-t1-package` if the user is preparing for a CPA meeting, or stands alone as a compliance check.
 
 **Core constraint:** This workflow organizes GST/HST information. It does not verify accuracy or completeness, and does not determine whether supplies are taxable, zero-rated, or exempt. State this to the user before starting.
 
