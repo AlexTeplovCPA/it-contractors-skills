@@ -1,5 +1,5 @@
 ---
-name: preparing-cpa-t2-package
+name: 05-preparing-cpa-t2-package
 description: "Assembles a corporate tax handoff package for an incorporated Canadian business owner to hand off to a CPA before T2 filing. Guides the user through collecting bookkeeping status, owner compensation records, GST/HST standing, prior year context, and supporting corporate documents, then produces a cover summary the CPA can act on directly. Does not give tax advice, prepare financial statements, or advise on compensation structure. Trigger on: 'prepare for my corporate tax filing', 'what does my accountant need for my T2', 'get my company documents ready for my CPA', 'organize my corporate books before filing', 'what should I send my accountant for the corporation', 'I have a meeting with my CPA about the corporate return'."
 metadata:
   author: Alex Teplov
