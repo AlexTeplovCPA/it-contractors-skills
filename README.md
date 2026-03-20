@@ -1,16 +1,16 @@
-# selfemployed-skills
+# it-contractors-skills
 
-AI workflow skills for self-employed Canadians preparing for tax filing or CPA review.
+AI workflow skills for IT contractors preparing for tax filing or CPA review.
 
-These skills are built from real practice with IT contractors, mortgage agents, trades contractors, and real estate professionals in Canada. Each skill runs as a structured conversation: the AI asks questions, reads uploaded documents, fills gaps, and produces organized output ready for a CPA to review.
+These skills are built from real practice with IT contractors and consultants in Canada. Each skill runs as a structured conversation: the AI asks questions, reads uploaded documents, fills gaps, and produces organized output ready for a CPA to review.
 
 These skills are a domain-specific extension of cpa-skills.
 
 ## Who This Is For
 
-Self-employed Canadians who want to organize their tax information before working with a CPA. The skills handle the preparation layer. The CPA handles review, classification, and filing.
+IT contractors and consultants in Canada who want to organize their tax information before working with a CPA. The skills handle the preparation layer. The CPA handles review, classification, and filing.
 
-Practitioners working with self-employed clients who want a consistent intake workflow before the engagement begins.
+Practitioners working with IT contractor clients who want a consistent intake workflow before the engagement begins.
 
 These skills are not a substitute for professional tax advice or CPA review. They organize what you have. A CPA validates and completes it.
 
