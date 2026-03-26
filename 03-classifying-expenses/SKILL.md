@@ -125,4 +125,4 @@ Then state:
 
 ## Where a CPA Adds Value
 
-The Step 5 blockquote delivers the summary to the user. For the file record: the CPA confirms category eligibility under CRA rules for this contractor's situation, applies business-use percentages for home office and vehicle, calculates the 50% meals limitation, determines the correct CCA class for capital purchases and calculates the deduction, assesses shareholder benefit exposures for incorporated contractors, advises on owner compensation structure, and reviews ITC eligibility on flagged GST/HST transactions.
+> The Step 5 blockquote delivers the summary to the user. For the file record: the CPA confirms category eligibility under CRA rules for this contractor's situation, applies business-use percentages for home office and vehicle, calculates the 50% meals limitation, determines the correct CCA class for capital purchases and calculates the deduction, assesses shareholder benefit exposures for incorporated contractors, advises on owner compensation structure, and reviews ITC eligibility on flagged GST/HST transactions.
