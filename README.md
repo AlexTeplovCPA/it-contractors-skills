@@ -24,49 +24,53 @@ This repository is for:
 
 These skills organize what the user provides. A CPA reviews the file, confirms tax treatment, identifies gaps, and completes the return.
 
+## Disclosure
+
+These workflows organize information provided by the user. They do not verify completeness or accuracy, provide tax advice, determine final tax treatment, or create a professional relationship of any kind. Use of these skills does not replace review by a qualified CPA before filing.
+
 ## How the Skills Work Together
 
 The skills follow a structured preparation sequence. They can be run in order or individually depending on the situation.
 
-The workflow moves from document collection → income and expense organization → compliance checks → CPA-ready package.
+The workflow moves from document collection to income and expense organization, then to compliance checks and CPA-ready package preparation.
 
 ## Current Skill Map
 
 ### Intake
 
-- `collecting-tax-documents-it-contractors`
-- `normalizing-uploads-it-contractors`
+- `collecting-tax-documents`
+- `normalizing-uploads`
 
 ### Income and Compliance
 
-- `identifying-income-sources-it-contractors`
-- `checking-gst-hst-it-contractors`
-- `collecting-foreign-income-support-it-contractors`
-- `reconciling-income-to-deposits-it-contractors`
+- `identifying-income-sources`
+- `checking-gst-hst`
+- `collecting-foreign-income-support`
+- `reconciling-income-to-deposits`
 
 ### Expense and Support
 
-- `classifying-expenses-it-contractors`
-- `collecting-home-office-support-it-contractors`
-- `collecting-vehicle-support-it-contractors`
+- `classifying-expenses`
+- `collecting-home-office-support`
+- `collecting-vehicle-support`
 
 ### Incorporated Contractor Risk Areas
 
-- `screening-psb-risk-it-contractors`
-- `reviewing-shareholder-transactions-it-contractors`
-- `collecting-owner-compensation-records-it-contractors`
+- `screening-psb-risk`
+- `reviewing-shareholder-transactions`
+- `collecting-owner-compensation-records`
 
 ### Handoff
 
-- `preparing-cpa-t1-package-it-contractors`
-- `preparing-cpa-t2-package-it-contractors`
-- `validating-readiness-it-contractors`
+- `preparing-cpa-t1-package`
+- `preparing-cpa-t2-package`
+- `validating-readiness`
 
 ## Planned Repository Structure
 
 ```text
 skills/
-  collecting-tax-documents-it-contractors/
+  collecting-tax-documents/
     SKILL.md
     agents/
       openai.yaml
@@ -74,74 +78,74 @@ skills/
       checklist-t1.md
       checklist-t2.md
 
-  normalizing-uploads-it-contractors/
+  normalizing-uploads/
     SKILL.md
     agents/
       openai.yaml
 
-  identifying-income-sources-it-contractors/
+  identifying-income-sources/
     SKILL.md
     agents/
       openai.yaml
 
-  checking-gst-hst-it-contractors/
+  checking-gst-hst/
     SKILL.md
     agents/
       openai.yaml
 
-  collecting-foreign-income-support-it-contractors/
+  collecting-foreign-income-support/
     SKILL.md
     agents/
       openai.yaml
 
-  reconciling-income-to-deposits-it-contractors/
+  reconciling-income-to-deposits/
     SKILL.md
     agents/
       openai.yaml
 
-  classifying-expenses-it-contractors/
+  classifying-expenses/
     SKILL.md
     agents/
       openai.yaml
     references/
       vendor-categories.md
 
-  collecting-home-office-support-it-contractors/
+  collecting-home-office-support/
     SKILL.md
     agents/
       openai.yaml
 
-  collecting-vehicle-support-it-contractors/
+  collecting-vehicle-support/
     SKILL.md
     agents/
       openai.yaml
 
-  screening-psb-risk-it-contractors/
+  screening-psb-risk/
     SKILL.md
     agents/
       openai.yaml
 
-  reviewing-shareholder-transactions-it-contractors/
+  reviewing-shareholder-transactions/
     SKILL.md
     agents/
       openai.yaml
 
-  collecting-owner-compensation-records-it-contractors/
+  collecting-owner-compensation-records/
     SKILL.md
     agents/
       openai.yaml
 
-  preparing-cpa-t1-package-it-contractors/
+  preparing-cpa-t1-package/
     SKILL.md
     agents/
       openai.yaml
 
-  preparing-cpa-t2-package-it-contractors/
+  preparing-cpa-t2-package/
     SKILL.md
     agents/
       openai.yaml
 
-  validating-readiness-it-contractors/
+  validating-readiness/
     SKILL.md
     agents/
       openai.yaml
@@ -169,13 +173,78 @@ The `examples/` folder contains sample inputs and outputs used during developmen
 
 These are not templates for filing. They illustrate how structured outputs should look before CPA review.
 
+## Installation
+
+### Claude (claude.ai)
+1. Download or clone this repository
+2. Zip the individual skill folder you want to install
+3. Go to Settings → Capabilities → Skills
+4. Upload the skill ZIP
+
+### Claude Code
+Place the skill folder in:
+
+```text
+~/.claude/skills/
+```
+
+### OpenAI Codex
+Place the skill folder in:
+
+```text
+~/.agents/skills/
+```
+
+### Google Gemini CLI
+Place the skill folder in one of:
+
+```text
+~/.gemini/skills/
+~/.agents/skills/
+```
+
+These skills follow a shared agent-skill style structure and are being developed primarily around Claude-style workflows. Behavior may vary across tools.
+
+## How to Use the Repository
+
+A user does not need to run every skill.
+
+A typical path might look like this:
+
+1. collect tax documents
+2. normalize uploads
+3. identify income sources
+4. check GST/HST context if relevant
+5. classify expenses
+6. collect additional support for home office, vehicle, or foreign income if needed
+7. review incorporated contractor risk areas where relevant
+8. prepare the T1 package, T2 package, or both
+9. validate readiness before CPA intake
+
+## Example Workflow
+
+```text
+request: I need to get my IT contractor tax information ready for my CPA
+skills used:
+- collecting-tax-documents
+- identifying-income-sources
+- classifying-expenses
+- preparing-cpa-t1-package
+
+output:
+- organized summaries
+- missing item list
+- CPA question list
+- handoff package for review
+```
+
 ## Related Repositories
 
 [**cpa-skills**](https://github.com/alexteplovcpa/cpa-skills)  
 Practice-tested AI workflow skills for CPAs and bookkeepers. Practitioner-facing workflows for bookkeeping review, T1, T2, client communication, and CRA research.
 
 [**ecommerce-skills**](https://github.com/alexteplovcpa/ecommerce-skills)  
-Accounting workflows for Canadian e-commerce sellers, including reconciliation, inventory, COGS, and GST/HST handling.
+Accounting workflows for Canadian e-commerce sellers, including reconciliation, inventory, cost of goods sold, and GST/HST handling.
 
 ## About
 
