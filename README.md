@@ -330,8 +330,8 @@ Use of these workflows does not replace review by a qualified CPA before filing.
 
 ## Related Repositories
 
-- `cpa-skills` — practitioner-facing workflows for CPAs and bookkeepers
-- `ecommerce-skills` — client-facing workflows for Canadian e-commerce sellers
+- [cpa-skills](https://github.com/AlexTeplovCPA/it-contractors-skills) — practitioner-facing workflows for CPAs and bookkeepers
+- [ecommerce-skills](https://github.com/AlexTeplovCPA/ecommerce-skills) — client-facing workflows for Canadian e-commerce sellers
 
 ---
 
