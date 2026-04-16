@@ -1,0 +1,19 @@
+date,vendor,description,amount,currency,payment_method,receipt_status,user_category,vendor_category_hint,business_purpose_note,gst_hst_included,notes
+2025-01-04,Amazon Web Services,Cloud hosting January,210.55,CAD,business_credit_card,received,software,software_and_cloud,Hosting client environments,unknown,Recurring monthly tool
+2025-02-04,Amazon Web Services,Cloud hosting February,198.20,CAD,business_credit_card,received,software,software_and_cloud,Hosting client environments,unknown,Recurring monthly tool
+2025-03-04,Amazon Web Services,Cloud hosting March,205.10,CAD,business_credit_card,received,software,software_and_cloud,Hosting client environments,unknown,Recurring monthly tool
+2025-01-12,GitHub,Team plan subscription,28.00,USD,business_credit_card,received,software,software_and_cloud,Source control for client work,unknown,Converted in bookkeeping
+2025-02-12,GitHub,Team plan subscription,28.00,USD,business_credit_card,received,software,software_and_cloud,Source control for client work,unknown,Converted in bookkeeping
+2025-03-12,GitHub,Team plan subscription,28.00,USD,business_credit_card,received,software,software_and_cloud,Source control for client work,unknown,Converted in bookkeeping
+2025-05-18,Restaurant X,Dinner with client,126.40,CAD,business_credit_card,received,meals,meals_and_entertainment,,unknown,Business purpose not fully documented
+2025-06-03,Cafe Y,Coffee meeting,18.20,CAD,personal_card,missing,meals,meals_and_entertainment,Met prospective client,unknown,Receipt missing
+2025-03-01,Rogers,Internet bill January,95.00,CAD,bank_auto_payment,received,internet,utilities_and_phone,Home internet used partly for business,yes,May need split with home office logic
+2025-04-01,Rogers,Internet bill February,95.00,CAD,bank_auto_payment,received,internet,utilities_and_phone,Home internet used partly for business,yes,May need split with home office logic
+2025-05-01,Rogers,Internet bill March,95.00,CAD,bank_auto_payment,received,internet,utilities_and_phone,Home internet used partly for business,yes,May need split with home office logic
+2025-07-10,Apple,Laptop purchase,2450.00,CAD,business_credit_card,received,equipment,possible_capital_item,Primary laptop for consulting work,yes,Should be reviewed for capital treatment
+2025-08-21,QuickBooks,Subscription annual plan,420.00,CAD,business_credit_card,received,software,software_and_cloud,Bookkeeping software,yes,Annual charge
+2025-09-14,WeWork,Day office rental,175.00,CAD,business_credit_card,received,rent,rent_and_workspace,Client workshop day,yes,Single-use coworking cost
+2025-10-02,CPA Firm,Tax preparation fee for prior year,950.00,CAD,bank_transfer,received,professional_fees,legal_accounting_and_professional_fees,Professional tax preparation,yes,Potential T2125 category review
+2025-11-07,Air Canada,Flight to client site,640.00,CAD,business_credit_card,received,travel,travel,Travel to onsite client meeting,yes,Travel category
+2025-11-09,Hotel Z,Two-night stay for client meeting,410.00,CAD,business_credit_card,received,travel,travel,Travel to onsite client meeting,yes,Travel category
+2025-12-01,Adobe,Creative Cloud subscription,79.99,CAD,business_credit_card,received,software,software_and_cloud,Used for presentations and client assets,yes,Recurring creative tool

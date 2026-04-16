@@ -1,0 +1,4 @@
+tax_year,registered,status,effective_date,filing_frequency,program_account_on_file,sales_tax_collected_recorded,itc_support_recorded,last_return_period_end,last_return_filed,last_return_filed_date,amount_collected_estimate,itc_estimate,notes
+2025,yes,active,2024-07-01,quarterly,yes,yes,partial,2025-09-30,yes,2025-10-28,11250,1850,User says Q4 2025 records are not yet assembled
+2025,yes,active,2024-07-01,quarterly,yes,yes,partial,2025-12-31,no,,4200,700,Q4 return not yet filed at time of intake
+2025,yes,active,2024-07-01,quarterly,yes,unknown,partial,,,,"","","Cross-border services to US clients may require review"

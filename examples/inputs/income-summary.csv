@@ -1,0 +1,19 @@
+date,payer,channel_type,source_type,description,amount,currency,cad_amount,slip_type,slip_received,invoice_summary_received,platform_summary_received,deposit_record_received,notes
+2025-01-15,Client A,direct_client,invoice,January development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-02-15,Client A,direct_client,invoice,February development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-03-15,Client A,direct_client,invoice,March development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-04-15,Client A,direct_client,invoice,April development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-05-15,Client A,direct_client,invoice,May development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-06-15,Client A,direct_client,invoice,June development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-07-15,Client A,direct_client,invoice,July development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-08-15,Client A,direct_client,invoice,August development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-09-15,Client A,direct_client,invoice,September development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-10-15,Client A,direct_client,invoice,October development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-11-15,Client A,direct_client,invoice,November development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-12-15,Client A,direct_client,invoice,December development retainer,5000,CAD,5000,,no,yes,no,yes,Recurring monthly client
+2025-06-30,Agency X,t4a,slip,Contract work through staffing agency,24500,CAD,24500,T4A,yes,no,no,yes,T4A uploaded by user
+2025-03-20,Upwork,platform,platform_payout,Upwork payout March,3200,USD,4320,,no,no,yes,yes,Converted to CAD by user estimate
+2025-06-20,Upwork,platform,platform_payout,Upwork payout June,2800,USD,3780,,no,no,yes,yes,Converted to CAD by user estimate
+2025-09-20,Upwork,platform,platform_payout,Upwork payout September,2100,USD,2835,,no,no,yes,yes,Converted to CAD by user estimate
+2025-12-20,Upwork,platform,platform_payout,Upwork payout December,1800,USD,2430,,no,no,yes,yes,Converted to CAD by user estimate
+2025-07-05,Client B,direct_client,reimbursement,Reimbursed software expense,450,CAD,450,,no,no,no,yes,May need review whether included in income
