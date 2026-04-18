@@ -153,41 +153,39 @@ The user receives a focused list of:
 
 ---
 
-## Current Build Priority
+## Current Build State
 
-The first working chain is:
+All 18 skills are built and included in the repository.
 
-1. `collecting-tax-documents`
-2. `identifying-income-sources`
-3. `identifying-expense-categories`
-4. `organizing-t2125-gross-business-income`
-5. `organizing-t2125-routine-operating-expenses`
-6. `organizing-t2125-8523-meals-and-entertainment`
-7. `generating-self-entry-summary`
-8. `generating-missing-items-summary`
+### Broad intake
 
-This is the first end-to-end path the repository is designed to support.
+- `collecting-tax-documents`
+- `identifying-income-sources`
+- `identifying-expense-categories`
 
-After that, the next build set includes:
+### Narrow field skills
 
-- `checking-gst-hst`
-- `reviewing-foreign-platform-and-us-income`
-- `reviewing-instalments-and-tax-payments`
+- `organizing-t2125-gross-business-income`
+- `organizing-t2125-routine-operating-expenses`
+- `organizing-t2125-8523-meals-and-entertainment`
 - `organizing-t2125-business-use-of-home`
 - `organizing-t2125-capital-assets-and-cca`
 - `organizing-t2125-other-expenses`
-- `generating-cpa-handoff-summary`
 
-Later expansion may include:
+### Cross-cutting risk skills
 
-- `organizing-t2125-travel`
-- `organizing-t2125-motor-vehicle-expenses`
-- `organizing-t2125-legal-accounting-and-professional-fees`
-- `organizing-t2125-subcontractors-and-fees`
-- `reviewing-other-income-and-reimbursements`
-- `reviewing-psb-risk-facts`
+- `checking-gst-hst`
 - `checking-shareholder-or-corporate-leakage`
+- `reviewing-foreign-platform-and-us-income`
+- `reviewing-instalments-and-tax-payments`
+- `reviewing-psb-risk-facts`
 - `reviewing-reasonableness-of-net-income`
+
+### Final output skills
+
+- `generating-self-entry-summary`
+- `generating-missing-items-summary`
+- `generating-cpa-handoff-summary`
 
 ---
 
