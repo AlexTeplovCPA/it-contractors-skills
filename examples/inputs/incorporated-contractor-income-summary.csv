@@ -1,0 +1,19 @@
+record_type,date,payer,channel_type,source_type,description,amount,currency,cad_amount,slip_type,slip_received,invoice_summary_received,platform_summary_received,deposit_record_received,notes
+corporate_revenue,2025-01-15,Client A (Corp),direct_client,invoice,January consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-02-15,Client A (Corp),direct_client,invoice,February consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-03-15,Client A (Corp),direct_client,invoice,March consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-04-15,Client A (Corp),direct_client,invoice,April consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-05-15,Client A (Corp),direct_client,invoice,May consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-06-15,Client A (Corp),direct_client,invoice,June consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-07-15,Client A (Corp),direct_client,invoice,July consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-08-15,Client A (Corp),direct_client,invoice,August consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-09-15,Client A (Corp),direct_client,invoice,September consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-10-15,Client A (Corp),direct_client,invoice,October consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-11-15,Client A (Corp),direct_client,invoice,November consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+corporate_revenue,2025-12-15,Client A (Corp),direct_client,invoice,December consulting retainer billed by corporation,17500,CAD,17500,,no,yes,no,yes,All revenue flows to corporation not to individual
+personal_t1,2025-03-31,Own Corporation,corporate_salary,t4,Q1 salary draw from corporation,16250,CAD,16250,T4,yes,no,no,yes,T4 to be issued by corporation; user estimate provided
+personal_t1,2025-06-30,Own Corporation,corporate_salary,t4,Q2 salary draw from corporation,16250,CAD,16250,T4,yes,no,no,yes,T4 to be issued by corporation; user estimate provided
+personal_t1,2025-09-30,Own Corporation,corporate_salary,t4,Q3 salary draw from corporation,16250,CAD,16250,T4,yes,no,no,yes,T4 to be issued by corporation; user estimate provided
+personal_t1,2025-12-31,Own Corporation,corporate_salary,t4,Q4 salary draw from corporation,16250,CAD,16250,T4,yes,no,no,yes,T4 to be issued by corporation; user estimate provided
+personal_t1,2025-11-15,Own Corporation,corporate_dividend,t5,Eligible dividend declared by corporation,35000,CAD,35000,T5,no,no,no,yes,T5 not yet issued; user expects eligible dividend treatment
+personal_t1,2025-09-10,Own Corporation,shareholder_loan,shareholder_draw,Draw recorded as shareholder loan advance,8000,CAD,8000,,no,no,no,yes,Prior year shareholder loan balance of 18000 not yet repaid; this adds to outstanding balance
