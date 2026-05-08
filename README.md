@@ -371,6 +371,8 @@ These workflows organize information provided by the user. They do not verify co
 
 Use of these workflows does not replace review by a qualified CPA before filing.
 
+See [PRIVACY.md](PRIVACY.md) for information on how personal data is handled when using these workflows or submitting a package to Alex Teplov CPA.
+
 ---
 
 ## Related Repositories
