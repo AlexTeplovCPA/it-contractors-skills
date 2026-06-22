@@ -26,7 +26,7 @@ This information stays within your AI session unless you choose to share it.
 
 ## Your AI Provider
 
-These workflows run on the AI platform you choose (such as Claude, ChatGPT, or another agent). Your data passes through that platform under their own privacy policy and terms of service. You should review your AI provider's privacy policy before entering sensitive financial information.
+These workflows run on the AI platform you choose, such as Codex, Claude, ChatGPT, Gemini, or another agent. Your data passes through that platform under its own privacy policy and terms of service. You should review your AI provider's privacy policy before entering sensitive financial information.
 
 **Do not enter your SIN, business number, bank account numbers, or full client names.** Redact sensitive identifiers before uploading any documents.
 

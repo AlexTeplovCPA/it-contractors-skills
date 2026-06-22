@@ -1,4 +1,4 @@
-# Repo Scope — it-contractors-skills
+# Repo scope - it-contractors-skills
 
 ## Purpose
 
@@ -11,6 +11,24 @@ Its purpose is to help users move from messy tax inputs to structured preparatio
 - document and readiness review before either path
 
 The repository is designed around preparation, organization, mapping, and gap detection. It is not designed to replace CPA judgment.
+
+---
+
+## Platform neutrality
+
+The canonical workflows in this repository live in `skills/*/SKILL.md`. They should remain platform-neutral and usable by any capable AI agent.
+
+Platform-specific files are adapters only:
+
+- `AGENTS.md` for Codex repo-level guidance
+- `CLAUDE.md` for Claude repo-level guidance
+- `GEMINI.md` for Gemini repo-level guidance
+- `docs/platforms/codex.md` for Codex usage
+- `docs/platforms/claude.md` for Claude usage
+- `docs/platforms/gemini.md` for Gemini usage
+- `docs/platforms/agent-compatibility.md` for general compatibility rules
+
+Do not put provider-specific installation or activation details inside canonical skill workflows unless the workflow genuinely requires that provider.
 
 ---
 
@@ -242,8 +260,8 @@ Do not show in the repository:
 
 This repository is distinct from:
 
-- `cpa-skills` — practitioner-facing workflows for CPAs and bookkeepers
-- `ecommerce-skills` — client-facing workflows for Canadian e-commerce sellers
+- `cpa-skills`: practitioner-facing workflows for CPAs and bookkeepers
+- `ecommerce-skills`: client-facing workflows for Canadian e-commerce sellers
 
 This repository remains:
 

@@ -18,10 +18,10 @@ Use this opening block at the top of every self-entry summary:
 
 Use these consistently across all field-level status values:
 
-- **Ready for entry** — the information appears organized and supported
-- **Clarification required** — one or more items still need follow-up before confident entry
-- **CPA review recommended** — material uncertainty exists; a practitioner should review before entry
-- **Not applicable** — this field or section does not apply to this file
+- **Ready for entry**: the information appears organized and supported
+- **Clarification required**: one or more items still need follow-up before confident entry
+- **CPA review recommended**: material uncertainty exists; a practitioner should review before entry
+- **Not applicable**: this field or section does not apply to this file
 
 ---
 
@@ -29,9 +29,9 @@ Use these consistently across all field-level status values:
 
 Use one of these at the summary level:
 
-- **Complete** — all organized fields appear ready for entry with no material gaps
-- **Partial** — some fields are ready, others still need clarification or review
-- **Not ready** — the file is not organized enough to support confident entry
+- **Complete**: all organized fields appear ready for entry with no material gaps
+- **Partial**: some fields are ready, others still need clarification or review
+- **Not ready**: the file is not organized enough to support confident entry
 
 ---
 

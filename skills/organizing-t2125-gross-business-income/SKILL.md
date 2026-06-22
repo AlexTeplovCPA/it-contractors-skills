@@ -108,11 +108,11 @@ Map supported or plausibly supported sources into a provisional T2125 gross busi
 
 Acceptable mapping logic:
 
-- direct client invoices supported by summaries and deposits → likely include
-- platform income supported by platform summary → likely include
-- T4A connected to contractor work → include or include_with_caution
-- reimbursement mixed into income → exclude_or_clarify
-- unexplained deposit → exclude_or_clarify
+- direct client invoices supported by summaries and deposits: likely include
+- platform income supported by platform summary: likely include
+- T4A connected to contractor work: include or include_with_caution
+- reimbursement mixed into income: exclude_or_clarify
+- unexplained deposit: exclude_or_clarify
 
 Do not invent a final amount from incomplete support.
 

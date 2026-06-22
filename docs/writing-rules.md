@@ -1,4 +1,4 @@
-# Writing Rules — it-contractors-skills
+# Writing rules - it-contractors-skills
 
 ## Purpose
 
@@ -7,6 +7,30 @@ These writing rules apply to repository-level documentation, `SKILL.md` files, s
 The goal is consistency.
 
 This repository is client-facing, IT-contractor-specific, and preparation-oriented. The writing should reflect that.
+
+---
+
+## Platform-neutral standard
+
+Write canonical `SKILL.md` files for capable AI agents, not for a specific model provider.
+
+Use:
+
+- agent
+- model
+- workflow
+- AI platform
+
+Avoid provider-specific names in canonical skill instructions unless the workflow genuinely requires that provider.
+
+Provider-specific wording belongs in:
+
+- `AGENTS.md`
+- `CLAUDE.md`
+- `GEMINI.md`
+- `docs/platforms/`
+
+Do not put Codex, Claude, ChatGPT, Gemini, OpenAI, Anthropic, or other provider setup details inside a canonical skill workflow unless the section is explicitly a platform adapter.
 
 ---
 

@@ -1,4 +1,12 @@
-# CLAUDE.md — it-contractors-skills
+# CLAUDE.md - Claude adapter for it-contractors-skills
+
+This is Claude-facing repository guidance for `it-contractors-skills`.
+
+The canonical workflows live in `skills/*/SKILL.md`. They are platform-neutral and should remain usable by Codex, Claude, ChatGPT, Gemini, or another capable AI agent.
+
+Claude-specific setup notes belong in this file or in `docs/platforms/claude.md`, not inside canonical skill workflows.
+
+---
 
 Client-facing AI workflow skills for Canadian IT contractors.
 
@@ -212,9 +220,17 @@ references/
   self-entry-summary-template.md
   cpa-handoff-template.md
 
+AGENTS.md
+CLAUDE.md
+GEMINI.md
 docs/
   repo-scope.md
   writing-rules.md
+  platforms/
+    agent-compatibility.md
+    codex.md
+    claude.md
+    gemini.md
 
 examples/
   inputs/
@@ -230,7 +246,18 @@ examples/
 
 ## Platform-Specific Files
 
-Files like `agents/openai.yaml` are optional. Add them only when packaging for a specific platform. They are not part of the default repository structure.
+Platform-specific files are adapters. They may explain how a platform should load or expose the same canonical workflows, but they should not replace the platform-neutral `skills/*/SKILL.md` files.
+
+Current adapter files:
+
+- `AGENTS.md`: Codex repo-level guidance
+- `CLAUDE.md`: Claude repo-level guidance
+- `GEMINI.md`: Gemini repo-level guidance
+- `docs/platforms/codex.md`: Codex usage
+- `docs/platforms/claude.md`: Claude usage
+- `docs/platforms/gemini.md`: Gemini usage
+- `docs/platforms/agent-compatibility.md`: general compatibility contract
+- `agents/openai.yaml`: optional per-skill metadata if added later
 
 ---
 
@@ -379,7 +406,7 @@ Use:
 - short sections
 - direct instructions
 - consistent wording
-- american spelling
+- American spelling
 - no em dashes
 
 Prefer:
@@ -454,7 +481,7 @@ Avoid vague messages.
 
 ## Related Repositories
 
-- `cpa-skills` — practitioner workflows
-- `ecommerce-skills` — e-commerce workflows
+- `cpa-skills`: practitioner workflows
+- `ecommerce-skills`: e-commerce workflows
 
 This repository remains client-facing and IT-contractor-specific.

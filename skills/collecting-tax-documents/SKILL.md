@@ -161,7 +161,7 @@ Do not use `ready_for_entry` simply because the user says they have "most docume
 ## Validation
 
 - Document inventory covers all eight categories or marks unused ones as `not_applicable`.
-- Every item has a status — no item is left unlabeled.
+- Every item has a status, and no item is left unlabeled.
 - At least one downstream skill is identified in routing.
 - `status` is one of the four standard values.
 - `client_safe_summary` is present and contains no tax advice.

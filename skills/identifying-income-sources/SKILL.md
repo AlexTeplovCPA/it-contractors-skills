@@ -176,7 +176,7 @@ Do not use `ready_for_entry` simply because the user described their income in g
 ## Validation
 
 - Income-source register covers all identified channels or marks unused ones as `not_applicable`.
-- Every source has a support status — no source is left unlabeled.
+- Every source has a support status, and no source is left unlabeled.
 - At least one downstream skill is identified in routing.
 - `status` is one of the four standard values.
 - `client_safe_summary` is present and contains no tax advice.

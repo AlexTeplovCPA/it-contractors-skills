@@ -66,7 +66,7 @@ Do not pull in resolved items.
 
 ### 3. Remove duplicates and low-value noise
 
-Merge overlapping issues — if three prior skills all flag missing GST/HST records, show one grouped item. Exclude issues that do not materially affect the next step.
+Merge overlapping issues. If three prior skills all flag missing GST/HST records, show one grouped item. Exclude issues that do not materially affect the next step.
 
 ### 4. Group missing items into practical sections
 

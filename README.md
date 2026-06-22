@@ -1,6 +1,6 @@
 # it-contractors-skills
 
-CPA-developed workflows that help Canadian IT contractors use AI more safely to organize their tax information, identify missing facts, and prepare for filing or CPA review.
+CPA-developed, platform-neutral workflows that help Canadian IT contractors use AI more safely to organize their tax information, identify missing facts, and prepare for filing or CPA review.
 
 This repository contains structured preparation workflows for Canadian IT contractors who want to:
 
@@ -24,13 +24,31 @@ This repository helps Canadian IT contractors use AI in a more structured way wh
 
 These workflows are for preparation, organization, and issue spotting. They are not a substitute for CPA judgment, final filing positions, or legal conclusions.
 
+## Platform Neutrality
+
+The canonical workflows in this repository live in `skills/*/SKILL.md`. They are written for capable AI agents in general, not for one model provider.
+
+The same skill content can be used with Codex, Claude, ChatGPT, Gemini, or another agent when that agent can read the relevant files and follow the workflow.
+
+Platform-specific files are adapters only:
+
+- `AGENTS.md` gives Codex repo-level guidance.
+- `CLAUDE.md` gives Claude repo-level guidance.
+- `GEMINI.md` gives Gemini repo-level guidance.
+- `docs/platforms/codex.md` explains Codex usage.
+- `docs/platforms/claude.md` explains Claude usage.
+- `docs/platforms/gemini.md` explains Gemini usage.
+- `docs/platforms/agent-compatibility.md` defines the agent-neutral compatibility contract.
+
+Automatic skill discovery depends on the platform. If an agent cannot auto-load a skill, point it directly to the relevant `SKILL.md` file and ask it to follow that workflow.
+
 ## How This Repository Fits the Broader System
 
 This repository is the IT contractor client-facing layer in a three-repository system:
 
-- `cpa-skills` — practitioner-facing workflow library for accountants and bookkeepers
-- `it-contractors-skills` — client-facing preparation workflows for Canadian IT contractors
-- `ecommerce-skills` — client-facing preparation workflows for Canadian e-commerce sellers
+- `cpa-skills`: practitioner-facing workflow library for accountants and bookkeepers
+- `it-contractors-skills`: client-facing preparation workflows for Canadian IT contractors
+- `ecommerce-skills`: client-facing preparation workflows for Canadian e-commerce sellers
 
 The role of `it-contractors-skills` is to show how CPA-designed AI workflows can be applied to one specific client niche with clearer boundaries, cleaner preparation, and better handoff quality.
 
@@ -305,9 +323,17 @@ references/
   self-entry-summary-template.md
   cpa-handoff-template.md
 
+AGENTS.md
+CLAUDE.md
+GEMINI.md
 docs/
   repo-scope.md
   writing-rules.md
+  platforms/
+    agent-compatibility.md
+    codex.md
+    claude.md
+    gemini.md
 
 examples/
   inputs/
@@ -319,33 +345,43 @@ examples/
     missing-items-summary-example.md
 ```
 
-Platform-specific files such as `agents/openai.yaml` are optional and may be added later for distribution needs. They are not part of the default repository structure.
+Platform-specific files such as `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, or `agents/openai.yaml` are adapters. They may explain how a platform should load or expose the same canonical workflows, but they should not replace the platform-neutral `skills/*/SKILL.md` files.
 
 ---
 
 ## How Skills Are Invoked
 
-Once installed in a compatible AI agent, the relevant workflow should load automatically when the user's request matches the skill.
+Once installed in a compatible AI agent, the relevant workflow should load automatically when the user's request matches the skill. Automatic loading depends on the platform.
 
 These workflows are designed so the user does not need to guess which prompt to write or which tax issue to analyze first.
 
 Example:
 
 ```
-request → "I need to organize my tax documents and figure out what I'm missing"
-agent loads → collecting-tax-documents
-output → document inventory, missing items, and next-step summary
+request -> "I need to organize my tax documents and figure out what I'm missing"
+agent loads -> collecting-tax-documents
+output -> document inventory, missing items, and next-step summary
 ```
 
 Another example:
 
 ```
-request → "I had client meals and need to know where they belong"
-agent loads → organizing-t2125-8523-meals-and-entertainment
-output → field mapping, open questions, and caution notes
+request -> "I had client meals and need to know where they belong"
+agent loads -> organizing-t2125-8523-meals-and-entertainment
+output -> field mapping, open questions, and caution notes
 ```
 
 The user should not need to manually orchestrate the internal skill structure.
+
+If a platform does not support automatic skill loading, the user can still use repo-read mode by naming the relevant skill file.
+
+Example:
+
+```text
+request -> "Use skills/collecting-tax-documents/SKILL.md to organize my 2025 contractor tax documents"
+agent reads -> skills/collecting-tax-documents/SKILL.md
+output -> document inventory, missing items, and next-step summary
+```
 
 ---
 
@@ -377,8 +413,8 @@ See [PRIVACY.md](PRIVACY.md) for information on how personal data is handled whe
 
 ## Related Repositories
 
-- [`cpa-skills`](https://github.com/AlexTeplovCPA/cpa-skills) — practitioner-facing workflows for CPAs and bookkeepers
-- [`ecommerce-skills`](https://github.com/AlexTeplovCPA/ecommerce-skills) — client-facing preparation workflows for Canadian e-commerce sellers
+- [`cpa-skills`](https://github.com/AlexTeplovCPA/cpa-skills): practitioner-facing workflows for CPAs and bookkeepers
+- [`ecommerce-skills`](https://github.com/AlexTeplovCPA/ecommerce-skills): client-facing preparation workflows for Canadian e-commerce sellers
 
 ---
 
@@ -396,6 +432,6 @@ Built by [Alex Teplov, CPA](https://teplov.ca).
 
 These workflows are built from real accounting practice focused on Canadian IT contractors. They are designed around a simple reality: many clients already use AI for tax questions, but they need better structure, clearer boundaries, and a more reliable preparation process before filing or CPA review.
 
-- [teplov.ca](https://teplov.ca/) — IT contractor tax practice
-- [ecomcount.com](https://ecomcount.com/) — e-commerce seller tax practice
+- [teplov.ca](https://teplov.ca/): IT contractor tax practice
+- [ecomcount.com](https://ecomcount.com/): e-commerce seller tax practice
 - [LinkedIn](https://www.linkedin.com/in/alex-teplov)
