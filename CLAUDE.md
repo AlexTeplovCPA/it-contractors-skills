@@ -479,9 +479,4 @@ Avoid vague messages.
 
 ---
 
-## Related Repositories
-
-- `cpa-skills`: practitioner workflows
-- `ecommerce-skills`: e-commerce workflows
-
 This repository remains client-facing and IT-contractor-specific.

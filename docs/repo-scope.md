@@ -256,13 +256,6 @@ Do not show in the repository:
 
 ---
 
-## Related Repositories
-
-This repository is distinct from:
-
-- `cpa-skills`: practitioner-facing workflows for CPAs and bookkeepers
-- `ecommerce-skills`: client-facing workflows for Canadian e-commerce sellers
-
 This repository remains:
 
 - client-facing

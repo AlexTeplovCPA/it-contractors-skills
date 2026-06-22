@@ -44,13 +44,7 @@ Automatic skill discovery depends on the platform. If an agent cannot auto-load 
 
 ## How This Repository Fits the Broader System
 
-This repository is the IT contractor client-facing layer in a three-repository system:
-
-- `cpa-skills`: practitioner-facing workflow library for accountants and bookkeepers
-- `it-contractors-skills`: client-facing preparation workflows for Canadian IT contractors
-- `ecommerce-skills`: client-facing preparation workflows for Canadian e-commerce sellers
-
-The role of `it-contractors-skills` is to show how CPA-designed AI workflows can be applied to one specific client niche with clearer boundaries, cleaner preparation, and better handoff quality.
+This repository contains CPA-designed AI workflows for one specific client niche: Canadian IT contractors. The goal is clearer boundaries, cleaner preparation, and better handoff quality.
 
 ---
 
@@ -411,13 +405,6 @@ See [PRIVACY.md](PRIVACY.md) for information on how personal data is handled whe
 
 ---
 
-## Related Repositories
-
-- [`cpa-skills`](https://github.com/AlexTeplovCPA/cpa-skills): practitioner-facing workflows for CPAs and bookkeepers
-- [`ecommerce-skills`](https://github.com/AlexTeplovCPA/ecommerce-skills): client-facing preparation workflows for Canadian e-commerce sellers
-
----
-
 ## License
 
 This repository is licensed under the MIT License.
@@ -433,5 +420,4 @@ Built by [Alex Teplov, CPA](https://teplov.ca).
 These workflows are built from real accounting practice focused on Canadian IT contractors. They are designed around a simple reality: many clients already use AI for tax questions, but they need better structure, clearer boundaries, and a more reliable preparation process before filing or CPA review.
 
 - [teplov.ca](https://teplov.ca/): IT contractor tax practice
-- [ecomcount.com](https://ecomcount.com/): e-commerce seller tax practice
 - [LinkedIn](https://www.linkedin.com/in/alex-teplov)
