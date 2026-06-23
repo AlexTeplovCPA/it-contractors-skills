@@ -128,6 +128,12 @@ The goal is not to answer every tax question in one step. The goal is to move fr
 
 The repository follows a layered skill strategy.
 
+### 0. Pre-intake skill
+
+This runs before anything else when the client's folder contains raw, unorganized uploads.
+
+- `organizing-intake-folder`
+
 ### 1. Broad intake skills
 
 These organize the overall file and normalize what the user has.
@@ -208,7 +214,11 @@ The user receives a focused list of:
 
 ## Current Build State
 
-All 18 skills are built and included in the repository.
+All 19 skills are built and included in the repository.
+
+### Pre-intake
+
+- `organizing-intake-folder`
 
 ### Broad intake
 
